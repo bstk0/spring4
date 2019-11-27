@@ -4,25 +4,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Spring MVC 4 + Ajax Hello World - BSTK</title>
+<title>Spring MVC 4 + Ajax Hello World - BSTK 2.5</title>
 
 <c:url var="home" value="/" scope="request" />
 
+<!-- ** NAO ESTA FUNCIONANDO SPRINGFRAMEWORK/TAGS **
 <spring:url value="/resources/core/css/hello.css" var="coreCss" />
-<spring:url value="/resources/core/css/bootstrap.min.css"
-	var="bootstrapCss" />
+<spring:url value="/resources/core/css/bootstrap.min.css" var="bootstrapCss" />
 <link href="${bootstrapCss}" rel="stylesheet" />
 <link href="${coreCss}" rel="stylesheet" />
-
-<spring:url value="/resources/core/js/jquery.1.10.2.min.js"
-	var="jqueryJs" />
+ -->
+<link href="resources/core/css/bootstrap.min.css" rel="stylesheet" /> 
+<!--   
+<spring:url value="/resources/core/js/jquery.1.10.2.min.js" var="jqueryJs" />
 <script src="${jqueryJs}"></script>
+-->
+<script src="resources/core/js/jquery.1.10.2.min.js"></script>
+
 </head>
 
 <nav class="navbar navbar-inverse">
 	<div class="container">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">Spring 4 MVC Ajax Hello World</a>
+			<a class="navbar-brand" href="#">Spring 4 MVC Ajax Hello World - BSTK</a>
+			<a class="navbar-brand" href="https://www.mkyong.com/spring-mvc/spring-4-mvc-ajax-hello-world-example/">FONTE</a>
 		</div>
 	</div>
 </nav>
